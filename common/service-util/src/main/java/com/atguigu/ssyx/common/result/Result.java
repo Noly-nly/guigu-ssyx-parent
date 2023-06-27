@@ -54,6 +54,7 @@ public class Result<T> {
         return result;
     }
 
+
     //失败的方法
     public static<T> Result<T> fail(T data) {
         return build(data,ResultCodeEnum.FAIL);
